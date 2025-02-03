@@ -1,5 +1,5 @@
 # Audio files converter
-Script to convert audio files using ffmpeg. Tested with Windows 10 with flac to mp3 and wav to mp3 conversions.
+Script to convert audio files (audio files from specific folder) using ffmpeg. Tested with Windows 10 with flac to mp3 and wav to mp3 conversions.
 
 Script uses pymediainfo library
 
