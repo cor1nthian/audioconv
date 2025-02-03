@@ -229,7 +229,7 @@ if __name__ == "__main__":
                 if os.path.exists(sys.argv[2]):
                     outputFolder = sys.argv[2]
                 else:
-                    colorprint.out('SPECIFIED OUTPUT FOLDER OATH DOES NOT EXIST')
+                    colorprint.out('SPECIFIED OUTPUT FOLDER PATH DOES NOT EXIST')
                     systemExitCode = 3
                     sys.exit(systemExitCode)
             else:
@@ -274,7 +274,7 @@ if __name__ == "__main__":
     ffmpegfname = scriptdir + os.path.sep + ffmpegfname
     ffprobefname = scriptdir + os.path.sep + ffprobefname
     if not os.path.exists(ffmpegfname):
-        colorprint.out('FFMPEG EXE NOT FOUND')
+        colorprint.out('FFMPEG BINARY FILE NOT FOUND')
         systemExitCode = 9
         sys.exit(systemExitCode)
     filleList = listFilesInFolderByExt(targetFolder)
